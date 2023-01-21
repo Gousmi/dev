@@ -284,7 +284,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+  background: url("../img/profil-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -297,7 +298,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -356,6 +357,15 @@ h6 {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+  }
+  #hero:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 
